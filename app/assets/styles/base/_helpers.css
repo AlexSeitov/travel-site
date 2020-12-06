@@ -1,0 +1,7 @@
+.margin-b-until-md {
+	margin-bottom: 1rem;
+
+	@mixin atMedium {
+		margin-bottom: 0;
+	}
+}

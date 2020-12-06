@@ -1,0 +1,9 @@
+@mixin atMedium {
+	.col-md-4 {
+		width: 33.33333%;
+	}
+	
+	.col-md-8 {
+		width: 66.666667%;
+	}
+}
