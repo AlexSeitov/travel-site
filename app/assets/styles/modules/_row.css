@@ -17,4 +17,30 @@
 	&--gutters-large >div {
 		padding-right: 100px;
 	}
+
+	&--gutters-small {
+		margin-right: -45px;
+	}
+
+	&--gutters-small > div {
+		padding-right: 45px;
+	}
+
+	&--t-padding {
+		padding-top: 80px;
+	}
+
+	&--equal-height-at-medium {
+
+		& > div {
+			display: flex;
+		}
+	}
+
+	&--equal-height-at-large {
+
+		& > div {
+			display: flex;
+		}
+	}
 }

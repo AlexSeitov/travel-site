@@ -11,3 +11,17 @@
 		width: 66.666667%;
 	}
 }
+
+@mixin atLarge {
+	.col-lg-4 {
+		width: 33.33333%;
+	}
+
+	.col-lg-6 {
+		width: 50%;
+	}
+	
+	.col-lg-8 {
+		width: 66.666667%;
+	}
+}
