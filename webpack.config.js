@@ -5,6 +5,7 @@ const postCSSPlugins = [
 	require('postcss-mixins'),
 	require('postcss-simple-vars'),
 	require('postcss-nested')({ bubble: ['mixin'] }),
+	require('postcss-hexrgba'),
 	require('autoprefixer')
 ];
 
@@ -21,7 +22,7 @@ module.exports = {
 		contentBase: path.join(__dirname, 'app'),
 		hot: true,
 		port: 3000,
-		host: '0.0.0.0'
+		host: '0.0.0.0',
 	},
 	mode: 'development',
 	module: {
