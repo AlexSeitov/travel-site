@@ -2,8 +2,10 @@ import '../styles/styles.css';
 import './modules/MobileMenu';
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
+import StickyHeader from './modules/StickyHeader';
 
 let mobileMenu = new MobileMenu();
+let stickyHeader = new StickyHeader();
 
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
 new RevealOnScroll(document.querySelectorAll('.testimonial'), 60);
